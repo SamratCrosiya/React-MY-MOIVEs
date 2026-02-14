@@ -1,0 +1,23 @@
+.movie-footer {
+  background: linear-gradient(135deg, #0f3460, #1a1a2e);
+  color: #dfe6e9;
+  padding: 25px 20px;
+  text-align: center;
+  border-top: 2px solid rgba(232, 65, 24, 0.3);
+  margin-top: 60px;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.footer-text span {
+  background: linear-gradient(135deg, #e84118, #fbc531);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
