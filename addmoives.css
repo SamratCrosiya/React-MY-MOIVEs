@@ -1,0 +1,78 @@
+/* Add Movie Form */
+.add-movie-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.add-movie-form h2 {
+  text-align: center;
+  font-size: 2rem;
+  background: linear-gradient(135deg, #e84118, #fbc531);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.add-movie-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.add-movie-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.add-movie-form input:focus {
+  outline: none;
+  border-color: #e84118;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(232, 65, 24, 0.3);
+}
+
+.add-movie-form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #e84118, #fbc531);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.add-movie-form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(232, 65, 24, 0.4);
+}
+
+.add-movie-form button:active {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .add-movie-form {
+    margin: 20px;
+    padding: 20px;
+  }
+}
